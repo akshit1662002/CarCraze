@@ -30,7 +30,7 @@ const Login = () => {
 
 {error && (
 				<Alert status='error' fontSize={13} p={2} borderRadius={4}>
-					<AlertIcon fontSize={12} />
+					{/* <AlertIcon fontSize={12} /> */}
 					{error.message}
 				</Alert>
 			)}
